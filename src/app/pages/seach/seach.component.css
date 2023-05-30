@@ -1,0 +1,26 @@
+button
+{
+    background-color: #E50914;
+    color: #ffffff;
+    margin-top: 23px;
+}
+
+button:hover
+{
+    background-color: #E50914;
+    color: #ffffff;
+}
+
+img{
+    width: 100%;
+    cursor: pointer;
+}
+
+h5
+{
+    color: #ffffff;
+}
+input.form-control.ng-untouched.ng-pristine.ng-valid {
+    margin-left: 10px;
+    margin-top: 34px
+}

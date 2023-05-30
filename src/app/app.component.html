@@ -1,0 +1,28 @@
+<!-- nav-bar-start -->
+<nav class="navbar navbar-expand-lg fixed-top" [ngStyle]="navbg" >
+  <img src="https://i.ibb.co/r5krrdz/logo.png" style="    height: 40px;
+  width: 118px;
+  margin-left: 14px;margin-top: 12px; " >
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ms-auto ">
+      <li class="nav-item active">
+        <li class="nav-item active">
+          <a class="nav-link" routerLink="home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="seach">Search</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/signUp">signUp</a>
+        </li>
+    </ul>
+  </div>
+</nav>
+<!-- nav-bar-end -->
+
+
+
+<router-outlet></router-outlet>
